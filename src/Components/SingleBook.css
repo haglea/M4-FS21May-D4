@@ -1,0 +1,15 @@
+.cardstyle:hover {
+    background: #F8F9FA
+}
+
+.cardstyle {
+    border: none;
+    color: rgb(119, 119, 119);
+    padding: 1rem;
+    position: relative;
+}
+
+.img {
+    object-fit: contain;
+    height: 10rem;
+}
