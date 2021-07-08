@@ -27,7 +27,7 @@ class SingleBook extends Component {
               <Card.Title>
                 <small>{this.props.book.title.slice(0, 35)}...</small>
               </Card.Title>
-              {this.state.selected && <CommentArea book={this.props.book} />}
+              {this.state.selected && <CommentArea asin={this.props.book.asin} />}
             </Card.Body>
           </Card>
         

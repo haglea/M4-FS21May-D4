@@ -46,7 +46,7 @@ class BookList extends Component {
         <h4 className="my-5">Search Results</h4>
         <Row className="my-5">       
           { this.state.books.map((book) => (            
-              <Col xs={12} sm={4} md={3} lg={2}>
+              <Col xs={12} sm={6} md={4} lg={3}>
                 <SingleBook book={book} />
               </Col>
             ))}
@@ -55,7 +55,7 @@ class BookList extends Component {
         <h4 className="my-5">{this.props.books[0].category} </h4>
         <Row>
           {this.props.books.slice(0, 12).map((book) => (
-            <Col md={2}>
+            <Col md={4}>
               <SingleBook book={book} />
             </Col>
           ))}
